@@ -9,3 +9,9 @@ CREATE TABLE artistas (
     musica_mais_ouvida VARCHAR(50),
     ativo BOOLEAN DEFAULT TRUE
 );
+
+INSERT INTO artistas (nome, tipo, membros, genero_musical, pais_origem, ano_inicio, musica_mais_ouvida, ativo)
+VALUES
+('Coldplay', 'Banda', 4, 'Rock', 'Reino Unido', 1996, 'Yellow', TRUE);
+('Luan Santana', 'Cantor', 1, 'Sertanejo', 'Brasil', 2007, 'Meteoro', TRUE);
+
